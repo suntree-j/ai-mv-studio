@@ -1,0 +1,23 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@remotion/cli": "^4.0.537",
+    "@remotion/renderer": "^4.0.537",
+    "msedge-tts": "^2.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.537",
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,7 @@
+export RVC_DIR="${RVC_DIR:-./vendor/rvc}"
+export UVR_DIR="${UVR_DIR:-./models/uvr}"
+export SEP_MODEL="${SEP_MODEL:-model_bs_roformer_ep_317_sdr_12.9755.ckpt}"
+export COMFY_URL="${COMFY_URL:-http://127.0.0.1:8188}"
+export REMOTION_DIR="${REMOTION_DIR:-./remotion}"
+export FFMPEG="${FFMPEG:-ffmpeg}"
+export PYTHON="${PYTHON:-python3}"

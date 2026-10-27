@@ -1,0 +1,18 @@
+{
+  "slug": "example-song",
+  "title": "示例歌名",
+  "original_artist": "示例原唱",
+  "audio_original": "data/example-song/original.flac",
+  "instrumental": "data/example-song/instrumental.flac",
+  "rvc_model": "models/rvc/myvoice_e100.pth",
+  "pack": "packs/example-song",
+  "lrc": "data/example-song/lyrics.lrc",
+  "output_audio": "output/example-song/example-song_320k.mp3",
+  "output_video": "output/example-song/example-song_MV_1080p.mp4",
+  "mv": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "show_intro_card": true
+  }
+}

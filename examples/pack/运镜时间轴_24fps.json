@@ -1,0 +1,29 @@
+{
+  "fps": 24,
+  "total_frames": 480,
+  "crossfade_frames_default": 12,
+  "shots": [
+    {
+      "shot_id": "S01",
+      "start_frame": 0,
+      "end_frame": 240,
+      "duration_frames": 240,
+      "time_start": 0.0,
+      "time_end": 10.0,
+      "motion": "push_in",
+      "crossfade_in_frames": 0,
+      "crossfade_out_frames": 12
+    },
+    {
+      "shot_id": "S02",
+      "start_frame": 240,
+      "end_frame": 480,
+      "duration_frames": 240,
+      "time_start": 10.0,
+      "time_end": 20.0,
+      "motion": "pull_out",
+      "crossfade_in_frames": 12,
+      "crossfade_out_frames": 0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "song": "示例歌名",
+  "artist": "示例原唱",
+  "fps": 24,
+  "total_frames": 480,
+  "master_duration_seconds": 20.0,
+  "shots": [
+    {
+      "shot_id": "S01",
+      "time_start": 0.0,
+      "time_end": 10.0,
+      "duration_seconds": 10.0,
+      "lyric_hint": ["示例", "开场"],
+      "section": "序章",
+      "scene": "薄雾中的江南水乡，一叶小舟缓缓驶过石桥。",
+      "subject": "小船上的背影",
+      "positive_prompt_en": "Chinese ink-wash painting, misty Jiangnan water town, a small boat passing under a stone bridge, willow branches, soft dawn light, large negative space, subtle paper texture, no text, no calligraphy, no seal, no watermark. Figure shown only as a small back view.",
+      "negative_prompt_en": "text, letters, Chinese characters, watermark, logo, seal, close-up face, photorealistic portrait, modern objects",
+      "composition": "小船位于画面右下，左上保留大片雾气留白",
+      "motion": "push_in",
+      "seed": 10001
+    },
+    {
+      "shot_id": "S02",
+      "time_start": 10.0,
+      "time_end": 20.0,
+      "duration_seconds": 10.0,
+      "lyric_hint": ["示例", "结尾"],
+      "section": "尾声",
+      "scene": "山峦淡去，水面倒映晚霞，一叶孤舟远去。",
+      "subject": "远去的孤舟",
+      "positive_prompt_en": "Chinese ink-wash landscape, mountains fading into mist, sunset reflected on calm water, a tiny boat drifting away, minimal composition, poetic negative space, no text, no watermark.",
+      "negative_prompt_en": "text, letters, watermark, logo, close-up face, photorealistic",
+      "composition": "孤舟位于画面左侧三分之一，右侧留白",
+      "motion": "pull_out",
+      "seed": 10002
+    }
+  ]
+}
